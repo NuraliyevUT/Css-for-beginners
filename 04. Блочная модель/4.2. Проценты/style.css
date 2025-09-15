@@ -1,0 +1,7 @@
+.container {
+  border: 2px solid blue;
+}
+
+.container img {
+  width: 30%;
+}

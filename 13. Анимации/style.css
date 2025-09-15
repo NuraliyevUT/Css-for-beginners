@@ -1,0 +1,67 @@
+body {
+  margin: 30px;
+}
+
+.box {
+  margin: 30px 0;
+  width: 150px;
+  height: 150px;
+  background-color: darkorange;
+  border-radius: 12px;
+}
+
+.move-xy {
+  animation-name: move;
+  animation-duration: 3s;
+  animation-timing-function: ease-out;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+
+  /* или сокращенный вариант */
+  /* animation: move 3s ease-out 2s infinite alternate; */
+}
+
+@keyframes move {
+  from {
+    translate: 0px 0px; /* начиная с начальной позиции */
+  }
+  to {
+    translate: 70px 100px; /* смещение 70px по оси X и на 100px по оси Y */
+  }
+}
+
+/*********************************************/
+
+.move-x {
+  background-color: burlywood;
+  margin-top: 130px;
+  animation: moveX 3s ease-in-out 0s infinite alternate;
+}
+
+@keyframes moveX {
+  from {
+    translate: 0px; /* начиная с начальной позиции */
+  }
+  to {
+    translate: 100%; /* 100% ширины */
+  }
+}
+
+/*********************************************/
+
+@keyframes size {
+  from {
+    scale: 1; /* начиная с 100% от исходного размера */
+    background-color: violet;
+  }
+  to {
+    scale: 1.2; /* увеличение на 20% от исходного размера */
+    background-color: darkmagenta;
+  }
+}
+
+.scale {
+  margin-top: 60px;
+  animation: size 2s ease-in-out 0s infinite alternate;
+}

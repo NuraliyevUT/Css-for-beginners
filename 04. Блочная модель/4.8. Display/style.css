@@ -1,0 +1,24 @@
+.block-level {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.inline-level {
+  display: inline;
+
+  /* Следующие свойства будут игнорироваться для inline элементов */
+  /*
+  width: 500px;
+  height: 500px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  */
+}
+
+/* Можно изменять width, height, top/bottom margin для inline-block элементов */
+input,
+button {
+  width: 220px;
+  height: 35px;
+  margin-top: 20px;
+}

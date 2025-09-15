@@ -1,0 +1,49 @@
+body {
+  margin: 30px;
+}
+
+.container {
+  border: 3px solid red;
+  margin: 15px;
+  display: flex;
+  /* раскомментируйте при использовании свойств align-items и align-self */
+  /* height: 150px; */
+
+  /* раскомментируйте по одному свойству для просмотра результатов */
+  /* flex-wrap: wrap; */
+  /* justify-content: flex-start; */
+  /* align-items: stretch; */
+  /* gap: 10px; */
+}
+
+/* выбор элемента с обоими классами: "container" и "column" */
+.container.column {
+  flex-direction: column;
+  height: 450px;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: cornflowerblue;
+  border: 2px solid darkblue;
+  /* flex-basis: 50px; */
+}
+
+/* раскомментируйте для использования свойства flex-grow */
+/* .box:nth-child(2) {
+  flex-grow: 3;
+  background-color: greenyellow;
+} */
+
+/* раскомментируйте для использования свойства flex-shrink */
+/* .box:nth-child(2) {
+  flex-shrink: 3;
+  background-color: greenyellow;
+} */
+
+/* раскомментируйте для использования свойства align-self */
+/* .box:nth-child(2) {
+  align-self: flex-end;
+  background-color: greenyellow;
+} */

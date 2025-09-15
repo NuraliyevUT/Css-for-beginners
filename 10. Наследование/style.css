@@ -1,0 +1,25 @@
+body {
+  margin: 30px;
+}
+
+p {
+  color: darkviolet;
+  font-size: 1.5rem;
+}
+
+.forced-inherit {
+  border: 3px solid red;
+  padding: 15px;
+}
+
+.forced-inherit em {
+  border: inherit;
+  padding: 5px;
+}
+
+/*********************************************/
+
+.reset-inheritance em {
+  color: initial;
+  font-size: initial;
+}

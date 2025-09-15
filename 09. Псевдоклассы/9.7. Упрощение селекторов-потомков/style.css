@@ -1,0 +1,30 @@
+body {
+  margin: 30px;
+}
+
+.product {
+  border: 2px solid blueviolet;
+  padding: 20px;
+  margin-top: 35px;
+  border-radius: 5px;
+}
+
+/*
+.product .title,
+.product .description,
+.product .summary
+*/
+.product :is(.title, .description, .summary) {
+  color: darkblue;
+  font-size: 1.3rem;
+  padding: 15px 0; /* top, bottom = 15px | right, left = 0px */
+  margin: 0; /* удаление внешних отступов по умолчанию для элементов h1 и p */
+}
+
+/*
+.product .title,
+.product .description
+*/
+.product :is(.title, .description) {
+  border-bottom: 1px solid gray;
+}

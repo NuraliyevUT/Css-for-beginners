@@ -1,0 +1,11 @@
+body {
+  margin: 70px;
+  font-size: 1.5rem;
+}
+
+/* Разрешено ограниченное количество свойств:
+https://developer.mozilla.org/en-US/docs/Web/CSS/::marker#allowable_properties */
+li::marker {
+  color: green;
+  content: "\21D2   "; /* "=>" знак и отступ справа от него */
+}

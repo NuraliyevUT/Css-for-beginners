@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: gray;
+}
+
+div {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  border: 2px solid aqua;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 50px;
+  display: inline;
+  vertical-align: middle;
+}
+
+/* высота автоматически рассчитывается в соответствии
+ с содержимым элемента p */
+p {
+  width: 300px;
+  background-color: yellow;
+  display: inline-block;
+  vertical-align: middle;
+}

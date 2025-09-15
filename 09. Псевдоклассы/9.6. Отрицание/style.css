@@ -1,0 +1,21 @@
+body {
+  margin: 30px;
+}
+
+/* выбор всех заголовков h2,
+у которых нет класса "default" */
+h2:not(.default) {
+  color: darkmagenta;
+}
+
+.container p {
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+}
+
+/* выбор всех p внутри элемента с классом "container",
+но не внутри элемента с классом "special" */
+.container p:not(.special p) {
+  background-color: yellow;
+  padding: 10px;
+}

@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+}
+
+.header {
+  background-color: lightcoral;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.content {
+  margin-top: 80px; /* добавление внешнего отступа после фиксированного заголовка */
+  padding: 10px 50px;
+  text-align: justify;
+  font-size: 1.5rem;
+  line-height: 1.3;
+}

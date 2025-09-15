@@ -1,0 +1,39 @@
+body {
+  margin: 30px;
+  font-size: 1.5rem;
+}
+
+/* выбор элемента li, который является вторым дочерним элементом своего родителя */
+li:nth-child(2) {
+  color: red;
+}
+
+/* выбор второго дочернего элемента в div */
+div :nth-child(2) {
+  color: darkblue;
+}
+
+/*********************************************/
+
+table {
+  margin-top: 30px;
+}
+
+table,
+tr,
+th,
+td {
+  border: 1px solid;
+  border-collapse: collapse; /* объединяет границы отдельных элементов таблицы */
+}
+
+th,
+td {
+  padding: 15px;
+  text-align: center;
+}
+
+/* можно также использовать "odd" */
+tr:nth-child(even) {
+  background-color: lightgray;
+}

@@ -1,0 +1,26 @@
+body {
+  margin: 70px;
+  font-size: 1.2rem;
+}
+
+.menu {
+  list-style-type: none; /* удаление маркеров элементов списка */
+  padding: 0; /* удаление стандартных отступов для элемента ul */
+  margin-top: 35px;
+}
+
+.menu li {
+  padding: 20px;
+  background-color: lightgray;
+  border-bottom: 3px solid yellow;
+}
+
+/* Стилизация первого элемента списка */
+.menu li:first-child {
+  background-color: lightseagreen;
+  color: white;
+}
+
+.menu li:last-child {
+  border-bottom: none; /* Удаление нижней границы для последнего элемента */
+}

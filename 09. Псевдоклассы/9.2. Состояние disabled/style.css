@@ -1,0 +1,20 @@
+body {
+  margin: 30px;
+}
+
+button {
+  margin-top: 30px;
+  font-size: 1.3rem;
+  background-color: #3498db;
+  color: white;
+  padding: 15px 25px; /* top, bottom | right, left */
+  border: none; /* удаление границы */
+  border-radius: 5px;
+  cursor: pointer; /* Стиль указателя мыши при наведении курсора на кнопку */
+}
+
+.disabled-button:disabled {
+  background-color: rgb(231, 231, 231);
+  color: darkgray;
+  cursor: not-allowed;
+}

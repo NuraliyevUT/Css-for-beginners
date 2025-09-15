@@ -1,0 +1,107 @@
+body {
+  margin: 70px;
+}
+
+p {
+  width: 750px;
+}
+
+.text-color {
+  color: blue;
+}
+
+/*********************************************/
+
+.text-italic {
+  font-style: italic;
+}
+
+/*********************************************/
+
+.text-bold {
+  /* font-weight: bold; */
+  /* или */
+  font-weight: 700;
+}
+
+/*********************************************/
+
+.text-large {
+  font-size: 2rem; /* 2 * 16px = 32px */
+  width: 100%;
+}
+
+/*********************************************/
+
+/* класс, позволяющий увеличить размер шрифта на 50% */
+.text-medium {
+  font-size: 1.5rem;
+}
+
+.text-line-space {
+  line-height: 1.8; /* умножается на размер шрифта */
+  /* 16 px * 1.8 = 28px */
+}
+
+/*********************************************/
+
+.text-upper {
+  text-transform: uppercase;
+}
+
+.text-lower {
+  text-transform: lowercase;
+}
+
+.text-capitalize {
+  text-transform: capitalize;
+}
+
+/*********************************************/
+
+.text-underline {
+  text-decoration: underline;
+}
+
+.text-line-through {
+  text-decoration: line-through;
+  text-decoration-style: wavy;
+  text-decoration-color: red;
+  text-decoration-thickness: 1px;
+
+  /* или сокращенное свойство */
+  /* text-decoration: line-through dashed red 3px; */
+}
+
+/*********************************************/
+
+.text-left,
+.text-center,
+.text-right {
+  width: 100%;
+  background-color: gold;
+  padding: 10px;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-justified {
+  width: 100%;
+  text-align: justify;
+}
+
+.text-marker li {
+  color: green;
+  font-style: italic;
+  font-size: 1.25rem;
+}

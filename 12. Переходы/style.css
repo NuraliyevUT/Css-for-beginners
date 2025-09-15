@@ -1,0 +1,39 @@
+body {
+  margin: 30px;
+}
+
+.box {
+  margin: 30px 0;
+  width: 200px;
+  height: 200px;
+  background-color: darkorange;
+  transition-property: background-color;
+  transition-duration: 0.8s;
+  transition-timing-function: linear;
+}
+
+.box:hover {
+  background-color: blueviolet;
+}
+
+/*********************************************/
+
+.menu {
+  list-style-type: none; /* удаление маркеров элементов списка */
+  padding: 0; /* удаление стандартных отступов элемента ul */
+  margin-top: 35px;
+}
+
+.menu li {
+  padding: 20px;
+  height: 20px;
+  background-color: lightgray;
+  cursor: pointer;
+  transition: all 0.6s ease-out;
+}
+
+.menu li:hover {
+  background-color: lightseagreen;
+  color: white;
+  font-size: 1.1rem;
+}

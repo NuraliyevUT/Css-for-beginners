@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Альтернативная блочная модель</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <h1>Альтернативная блочная модель</h1>
+
+    <div class="box">
+      <p>Блочная модель по-умолчанию: <strong>content-box</strong></p>
+      <p>
+        К ширине и высоте добавляются границы и внутренний отступ, в результате
+        чего высота и ширина элемента становятся больше, чем указано
+      </p>
+    </div>
+    <div class="box border-box-model">
+      <p>Альтернативная блочная модель: <strong>border-box</strong></p>
+      <p>
+        Ширина и высота содержимого корректируются с учетом внутреннего отступа
+        и границы. В результате размеры не превышают заданные ширину и высоту
+      </p>
+    </div>
+  </body>
+</html>

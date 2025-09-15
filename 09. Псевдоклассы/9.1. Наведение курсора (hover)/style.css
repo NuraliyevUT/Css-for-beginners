@@ -1,0 +1,18 @@
+body {
+  margin: 30px;
+}
+
+.hover-button {
+  margin-top: 30px;
+  font-size: 1.3rem;
+  background-color: #3498db;
+  color: white;
+  padding: 15px 25px; /* top, bottom | right, left */
+  border: none; /* удаление границы */
+  border-radius: 5px;
+  cursor: pointer; /* Стиль указателя мыши при наведении курсора на кнопку */
+}
+
+.hover-button:hover {
+  background-color: #2980b9; /* изменение цвета на более темный оттенок синего */
+}

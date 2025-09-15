@@ -1,0 +1,28 @@
+body {
+  margin: 30px;
+}
+
+.title {
+  color: blue;
+}
+
+h2 {
+  color: green;
+}
+
+/*********************************************/
+
+.description {
+  color: darkblue;
+  font-size: 1.4rem;
+}
+
+[class="description"] {
+  color: darkred;
+}
+
+/*********************************************/
+
+.main {
+  color: green !important;
+}

@@ -1,0 +1,11 @@
+* {
+  color: red;
+}
+
+body {
+  background-color: gray;
+}
+
+.container p {
+  color: blue;
+}

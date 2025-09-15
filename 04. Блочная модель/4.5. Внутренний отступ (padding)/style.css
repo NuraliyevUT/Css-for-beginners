@@ -1,0 +1,11 @@
+img {
+  background-color: yellow;
+  border: 5px solid red;
+  padding: 25px;
+}
+
+p {
+  border: 5px solid orchid;
+  width: 250px;
+  padding: 20px 15px 25px 30px; /* top | right | bottom | left */
+}
